@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #8f8f8f;
+}
+
+#container{
+
+    display: flex;
+
+    width: 820px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+}
+
+.square {
+    background: black;
+    width: 50px;
+    height: 50px;
+}
