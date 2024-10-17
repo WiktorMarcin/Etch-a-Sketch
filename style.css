@@ -48,14 +48,7 @@ body {
 }
 
 .square {
-    background: black;
-    /* flex: 1 1; */
     height: 20px;
     transition-duration: 1s;
 
-}
-
-.square:hover {
-    background-color: #160052;
-    transition-duration: 0s;
 }
